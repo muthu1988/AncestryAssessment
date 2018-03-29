@@ -1,0 +1,40 @@
+.App {
+  text-align: left;
+  background: cornflowerblue;
+  padding: 10px;
+}
+
+.body {
+  background: white;
+  color: #337ab7;
+  font-size: small;
+  padding: 10px;
+}
+
+.footer {
+  bottom: 0;
+}
+
+.pageHeader {
+  padding-bottom: 0px;
+  margin: 0px 0 0px;
+}
+
+.table {
+  background: white;
+  border-radius: 8px; 
+}
+
+.form {
+  margin-left: 10%;
+}
+
+.form-control {
+  height: 30px;
+  width: 80%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  font-size: x-small;
+}
