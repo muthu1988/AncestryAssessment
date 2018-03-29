@@ -13,3 +13,5 @@ UI Library - React-Bootstrap for responsiveness
 Test - Enzyme with mocha and chai
 
 Dockerized : https://hub.docker.com/r/muthu1988/ancestry/
+
+Deployed in GCP : https://3000-dot-3708658-dot-devshell.appspot.com/
