@@ -11,3 +11,5 @@ Application state management - Redux
 UI Library - React-Bootstrap for responsiveness
 
 Test - Enzyme with mocha and chai
+
+Dockerized : https://github.com/muthu1988/AncestryAssessment
