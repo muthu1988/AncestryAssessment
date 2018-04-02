@@ -1,0 +1,19 @@
+Get project Id: gcloud config get-value project -q  
+
+Build and Tag the image: docker build -t gcr.io/x-oxygen-169115/ancestry
+
+Push docker images to repo: gcloud docker -- push gcr.io/x-oxygen-169115/ancestry
+
+Create cluster : gcloud container clusters create hello-cluster --num-nodes=3
+
+Create deployment pod: kubectl run ancestry --image=gcr.io/x-oxygen-169115/ancestry --port 3000
+
+Create service for the pod: kubectl expose deployment ancestry --type=LoadBalancer --port 80 --target-port 3000
+
+Find the external ip address: kubectl get service
+
+Clean Up:
+
+Delete Service: kubectl delete service ancestry
+
+Delete Cluster: gcloud container clusters delete hello-cluster
